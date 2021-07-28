@@ -1,0 +1,217 @@
+.container {
+  background-color: #DBDBE4;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* Login-102 */
+.card {
+  background-color: #F9F9F9;
+  width: 40%;
+  height: 460px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-title {
+  color: #1F4980;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  margin: 40px auto;
+  font-weight: bold;
+  font-size: 28px;
+}
+.card input {
+  width: 66%;
+  height: 26px;
+  margin-bottom: 20px;
+  border: 1.5px solid #E8E8E8;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: #E6ECF3;
+}
+.card input:focus-visible {
+  outline: #E8E8E8 solid 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #F9F9F9;
+}
+.card .login-input2 {
+  margin-bottom: 12px;
+}
+.login-remember {
+  display: flex;
+}
+.login-rememberBox {
+  width: 96%;
+  display: flex;
+  justify-content: space-around;
+}
+.login-remember input {
+  height: 16px;
+  margin-bottom: 0;
+  width: 16px;
+  color: #1f4980;
+}
+.remember {
+  display: flex;
+  width: 150px;
+  align-items: center;
+}
+.remember-text {
+  margin-left: 6px;
+  font-size: 14px;
+  color: #1f4980;
+}
+.forgot-text {
+  font-size: 14px;
+  color: #1f4980;
+  cursor: pointer;
+}
+.card-btn {
+  background-color: #1f4980;
+  width: 72%;
+  height: 52px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  border: transparent;
+  margin-top: 20px;
+  cursor: pointer;
+}
+a.card-btn {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  line-height: 54px;
+}
+.login-create a {
+  text-decoration: none;
+  color: #1f4980;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.login-create {
+  margin-top: 40px;
+}
+/* Register-124 */
+.register-back {
+  background-color: #4872AA;
+  width: 20%;
+  border: transparent;
+  border-radius: 40px;
+  height: 52px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register-back a {
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+}
+.card-register {
+  height: 476px;
+}
+/* TodoList-163 */
+.card-titleBox {
+  width: 72%;
+}
+.addBox {
+  width: 72%
+}
+input.add-input {
+  width: 94%;
+  height: 22px;
+  border: 1.5px solid #4872AA;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #F9F9F9;
+  margin-bottom: 10px;
+}
+input.add-input:focus-visible {
+  outline: transparent;
+  box-shadow: none;
+}
+.add-btn {
+  position: absolute;
+  margin-left: -42px;
+  width: 35px;
+  cursor: pointer;
+}
+.list-bg {
+  overflow: auto;
+  width: 72%;
+  height: 180px;
+}
+.btn-logout {
+  color: #1f4980;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  margin-top: 700px;
+  text-decoration: none;
+  position: absolute;
+}
+/* List-191 */
+.listBox {
+  display: flex;
+  background-color: #E6ECF3;
+  margin-bottom: 4px;
+  align-items: center;
+  height: 48px;
+  justify-content: space-between;
+}
+.listBox:hover {
+  background-color: #CDDCED;
+}
+.card input.list-checkbox{
+  width: 20px;
+  margin: auto 16px;
+  padding: 0;
+}
+.list-label {
+  color: #1F4980;
+}
+.list-left {
+  display: flex;
+}
+.list-delete {
+  width: 12px;
+  margin: auto 16px;
+  cursor: pointer;
+}
+/* Nav-217 */
+.nav-unclick {
+  width: 134px;
+  background-color: #F9F9F9;
+  border: none;
+  height: 40px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1F4980;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.nav-clicked {
+  width: 134px;
+  background-color: #F9F9F9;
+  height: 40px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1F4980;
+  border: none;
+  border-bottom: 2px solid #1F4980;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
