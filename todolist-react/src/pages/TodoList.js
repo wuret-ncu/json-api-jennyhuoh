@@ -89,6 +89,10 @@ export default function TodoList() {
         })
         setFresh(fresh+1);
     }
+    useEffect(() => {
+        let ll = listItems.map(lists => <List key={lists.id} id={lists.id} completed={lists.completed} name={lists.name} />)
+        setShowList(ll);
+    }, [listItems])
 
     return(
         <div className="container">
